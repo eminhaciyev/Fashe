@@ -1,0 +1,425 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header{
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    height: 46px;
+}
+header .col-2{
+    position: relative;
+}
+header .col-2:first-child{   
+    position: absolute;
+    top: 10px;   
+}
+header .col-2 p{
+    display: inline-block;
+}
+header .col-8:nth-child(2){   
+    position: absolute;
+    top: 15px;
+    text-align: center;
+    left: 209px;    
+    color: #888888;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+header .col-2:last-child{   
+    position: absolute;
+    top: 17px;
+    right: -35px;
+}
+header .col-2:last-child p{   
+    position: absolute; 
+    top: -2px;   
+    left: -45px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #888888;
+}
+header .col-2:last-child>select{
+    color: #888888;
+    position: absolute;
+    right: 30px;
+    top: -4px;    
+    border-style: none;
+    background-color: rgb(245, 245, 245); 
+    font-family: Montserrat;
+}
+header ul li{
+    display: inline-block;
+    padding: 7px;
+    color: #888888;
+}
+header ul li:hover{
+    transition: 0.4s; 
+    padding: 7px;
+    color: red;
+}
+
+
+ /* navigation */
+#nav-bar{    
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 80px;
+    background: white;      
+}
+#nav-bar .col-2:first-child{   
+    position: absolute;
+    top: 24px;       
+}
+#nav-bar .col-8:nth-child(2){   
+    position: absolute;
+    top: 24px;
+    left: 209px;        
+}
+#nav-bar .col-8 ul li{
+    display: inline-block; 
+    padding: 8px;    
+}
+#nav-bar .col-8 ul li a:hover{  
+     text-decoration: underline;    
+}
+#nav-bar .col-8 ul li:first-child{
+    position: relative;
+    bottom: -15px;
+    left: -15px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .overlay-Homepage{
+    opacity: 1;
+    text-decoration: none;
+}
+.overlay-Homepage {
+    position: absolute;
+    top: 50px;    
+    width: 200px;
+    left: 0px;
+    transition: all .5s;
+    padding: 10px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    z-index: 5;
+    opacity: 0;
+}
+.overlay-Homepage li {
+    display: block !important;
+    text-align: left;
+    font-family: Montserrat;
+    padding: 15px !important;
+    padding: 20px;
+    text-decoration: none;
+}
+#nav-bar .col-8 ul .sale{
+    color:red;
+}
+#nav-bar .col-8 ul li a{
+    text-decoration: none;
+    line-height: 1.7;
+    color:#605d5d;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .9s;
+}
+#nav-bar .col-8 ul {   
+    text-align: center;    
+}
+#nav-bar .col-2:last-child{   
+    position: absolute;
+    top: 24px;
+    right: 0px;   
+}
+#nav-bar .col-2:last-child ul li{   
+    display:inline-block;
+    padding: 0px 21px; 
+}
+#nav-bar .col-2:last-child ul li:first-child {
+    border-right: 1px solid black;    
+    height: 25px;    
+}
+#nav-bar .col-2:last-child ul{
+    position: absolute;
+    right: -23px;
+
+}
+
+/* Background Image */
+#backImage{
+    width: 100%;
+    height: 240px;   
+    background-image: url(../About/img/maniken.jpg);
+    background-position: center;
+}
+#backImage h1{
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 5;
+}
+
+/* Middle section */
+#about-Pic{
+    width: 100%;
+    height: 570px;    
+}
+#about-Pic .col-4{
+    margin-top: 60px;
+    height: 470px;   
+    overflow: hidden;
+}
+#about-Pic .col-8{
+    margin-top: 60px;
+    height: 470px;    
+}
+#about-Pic .col-4 img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s;    
+}
+#about-Pic .col-4:hover img{
+    transform: scale(1.1);
+}
+#about-Pic h1{
+    font-size: 25px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+#about-Pic p{
+    color: #888888;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.6;
+}
+#about-Pic .second-Part-Text {    
+    border-left: 2px solid #888888;    
+    height: 100px;
+    margin-top: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+#about-Pic .second-Part-Text p{
+    font-size: 15px;
+    font-family: Montserrat;    
+    line-height: 1.6;
+}
+#about-Pic .second-Part-Text p:last-child{
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+/* footer */
+footer{
+    overflow: hidden;
+    width: 100%;
+    height: 460px;
+}
+footer .row{
+    position: relative;    
+    width: 100%;
+    height: 460px;
+    background-color: #F0F0F0;    
+}
+footer .row .col-4:first-child{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 460px;
+    height: 255px;
+}
+footer .row .col-4:nth-child(2){
+    position: absolute;
+    top: 0px;
+    left: 460px;
+    height: 255px;
+
+    
+}
+footer .row .col-4:last-child{
+    position: absolute;
+    top: 0px;
+    right: 23px;
+    height: 255px;
+
+}
+
+footer  .col-4:first-child .row-Footer-Content {
+    position: absolute;
+    top: 80px;
+    left: 35px;
+    padding: 20px 0px;
+} 
+footer .row .col-4:first-child ul li{
+    display: inline-block;
+    padding-right: 15px;
+    color: #888888;
+    transition: all .4s;
+}
+footer .row .col-4:first-child ul li:hover{    
+    color: #e65540;
+}
+footer .row .col-4:first-child ul{
+    padding-top: 30px;
+    
+}
+footer  .col-4:first-child .row-Footer-Content h2{
+    padding-bottom: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5;
+}
+footer  .col-4:first-child .row-Footer-Content p{
+    font-size: 13px;
+    color: #555555;;
+    line-height: 1.8;
+}
+footer .inside-cols .col-4:first-child{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 152px;
+}
+footer .inside-cols .col-4:nth-child(2){
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 137px;
+}
+footer .inside-cols .col-4:last-child{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 140px;
+}
+footer .Categories {
+    position: absolute;
+    top: 101px;
+    left: 40px;
+} 
+footer .Categories  h2{
+    padding-bottom: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5;
+}
+footer .Categories  p{
+    padding-bottom: 10px; 
+    font-size: 13px;
+    color: #555555;;
+    line-height: 1.8;
+}
+footer .LINKS {
+    position: absolute;
+    top: 101px;
+    left: 40px;
+} 
+footer .LINKS  h2{
+    padding-bottom: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5; 
+}
+footer .LINKS  p{
+    padding-bottom: 10px; 
+    font-size: 13px;
+    color: #555555;;
+    line-height: 1.8;
+}
+footer .HELP {
+    position: absolute;
+    top: 101px;
+    left: 40px;
+} 
+footer .HELP  h2{
+    padding-bottom: 25px;    
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5; 
+}
+footer .HELP  p{
+    padding-bottom: 10px;     
+    font-size: 13px;
+    color: #555555;;
+    line-height: 1.8;
+}
+footer .NEWSLETTER {
+    position: absolute;
+    top: 101px;
+    left: 40px;
+} 
+footer .NEWSLETTER  h2{
+    padding-bottom: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5; 
+}
+footer .NEWSLETTER  input{
+    width: 299px;
+    padding-bottom: 0px; 
+    border: none;
+    background-color: #F0F0F0;
+    font-family: Montserrat;
+}
+footer button{   
+    border-radius: 35px;      
+    padding: 13px 50px;
+    font-size: 20px;  
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    background-color: black; 
+    margin-top: 20px;   
+}
+footer button p{
+    font-size: 16px;    
+}
+footer .border{
+    width: 300px;
+    border-bottom: 1px solid lightblue;
+    margin-top: 11px;
+}
+footer .footer-Row-EndOff ul li{
+    display: inline-block;
+}
+footer .footer-Row-EndOff{
+    position: relative;
+    bottom: 100px;
+    left: 589px;
+}
+footer .footer-Row-EndOff p{
+    position: relative;
+    bottom: -16px;
+    left: -57px;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.8;
+}
